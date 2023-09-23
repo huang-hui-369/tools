@@ -1,0 +1,61 @@
+{
+	// Place your markdown workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"text background color cyan":{
+		"prefix": "color-span-bg-cyan",
+		"body": [ "<span style='background-color:cyan'>$1</span>" ],
+		"description: "text background color cyan"
+	},
+
+	"text background color orange":{
+		"prefix": "color-span-bg-greenyellow",
+		"body": [ "<span style='background-color:orange'>$1</span>" ],
+		"description: "text background color orange"
+	},
+
+	"text background color greenyellow":{
+		"prefix": "color-span-bg-greenyellow",
+		"body": [ "<span style='background-color:greenyellow'>$1</span>" ],
+		"description: "text background color greenyellow"
+	},
+
+	"text background color lightyellow":{
+		"prefix": "color-span-bg-lightyellow",
+		"body": [ "<span style='background-color:lightyellow'>$1</span>" ],
+		"description: "text background color lightyellow"
+	},
+
+	"text font color red":{
+		"prefix": "color-font-red",
+		"body": [ "<font style='color:red'>$1</font>" ],
+		"description: "text font color red"
+	},
+
+	"text font color blue":{
+		"prefix": "color-font-blue",
+		"body": [ "<font style='color:blue'>$1</font>" ],
+		"description: "text font color blue"
+	},
+
+	"text font color orangered":{
+		"prefix": "color-font-orangered",
+		"body": [ "<font style='color:orangered'>$1</font>" ],
+		"description: "text font color orangered"
+	},
+
+}
